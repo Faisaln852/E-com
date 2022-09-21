@@ -1,0 +1,15 @@
+.category-img-container {
+    display: inline-block;
+}
+
+.category-img-container img {
+    width: 100%;
+    height: 60px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1250px) {
+    .category-table-size {
+        min-width: 740px;
+    }
+}
